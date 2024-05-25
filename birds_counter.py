@@ -81,7 +81,7 @@ class MyQueueManager(QueueManager):
 
 
 model = YOLO("birds_counter_model.pt")
-cap = cv2.VideoCapture("test2.mp4")
+cap = cv2.VideoCapture("test.mp4")
 
 assert cap.isOpened(), "Ошибка при чтении видео-файла"
 w, h, fps = (
